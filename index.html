@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arey_rohit</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0; /* Light mode background color */
+      color: #333; /* Light mode text color */
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .dark-mode {
+      background-color: #333; /* Dark mode background color */
+      color: #f0f0f0; /* Dark mode text color */
+    }
+
+    header {
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    #images, #videos {
+      padding: 20px;
+    }
+    #videos video{
+        width: 100%;
+        height: auto;
+    }
+    #images img{
+        width: 100%;
+        height: auto;
+    }
+
+    /* Additional styles for images and videos */
+  </style>
+</head>
+<body>
+  <header>
+    <h1><marquee>Arey_rohit_0812</marquee></h1>
+    <button id="darkModeToggle">Dark Mode</button>
+  </header>
+
+  <section id="images">
+    <img src="img/IMG-20230920-WA0000.jpg" alt="Placeholder Image">
+    <img src="img/IMG-20230920-WA0000.jpg" alt="Placeholder Image">
+    <img src="img/IMG-20230920-WA0002.jpg" alt="Placeholder Image">
+    <img src="img/IMG-20230920-WA0003.jpg" alt="Placeholder Image">
+    <img src="img/IMG_1624.jpg" alt="Placeholder Image">
+    <img src="img/IMG_20240107_173437.jpg" alt="Placeholder Image">
+    <img src="img/IMG_20240229_000123.jpg" alt="Placeholder Image">
+    <img src="img/IMG_20240404_194511.jpg" alt="Placeholder Image">
+    <!-- Add more images here -->
+  </section>
+
+  <section id="videos">
+    <video controls>
+      <source src="video/arey.rohitt_20240301_STORIES_3314121422039600116_1_3314121422039600116.mp4" type="video/mp4" hight="20px" width="20px">
+      Your browser does not support the video tag.
+    </video>
+
+    <video controls>
+        <source src="video/52754680_216490827854003_3421218579526963924_n.mp4" type="video/mp4" hight="20px" width="20px">
+        Your browser does not support the video tag.
+      </video>
+
+      <video controls>
+        <source src="video/9243C58A9500FECAD9DFFF4E7E063DBE_video_dashinit.mp4" type="video/mp4" hight="20px" width="20px">
+        Your browser does not support the video tag.
+      </video>
+
+      <video controls>
+        <source src="video/A1469773C4CDD322CCA4297E1ED4E185_video_dashinit.mp4" type="video/mp4" hight="20px" width="20px">
+        Your browser does not support the video tag.
+      </video>
+    
+      <video controls>
+        <source src="video/GGtbLxMJDs_ItQMFAIud7mKmkttYbpR1AAAF.mp4" type="video/mp4" hight="20px" width="20px">
+        Your browser does not support the video tag.
+      </video>
+
+      <video controls>
+        <source src="video/arey.rohitt_20240301_STORIES_3314121422039600116_2_3314129597610468861.mp4" type="video/mp4" hight="20px" width="20px">
+        Your browser does not support the video tag.
+      </video>
+
+      <video controls>
+        <source src="video/VID_24210707_073420_771.mp4" type="video/mp4" hight="20px" width="20px">
+        Your browser does not support the video tag.
+      </video>
+
+      <video controls>
+        <source src="video/VN20230926_081640.mp4" type="video/mp4" hight="20px" width="20px">
+        Your browser does not support the video tag.
+      </video>
+  </section>
+
+  <script>
+    const darkModeToggle = document.getElementById('darkModeToggle');
+    const body = document.body;
+
+    darkModeToggle.addEventListener('click', () => {
+      body.classList.toggle('dark-mode');
+    });
+  </script>
+</body>
+</html>
+
